@@ -2,7 +2,7 @@ pipeline {
     agent any 
     
     tools{
-        tools { jdk 'JDK' }  // Use the JDK configured in Jenkins
+        { jdk 'JDK' }  // Use the JDK configured in Jenkins
         maven 'maven'
     }
     
