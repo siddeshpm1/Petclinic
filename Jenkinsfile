@@ -2,7 +2,7 @@ pipeline {
     agent any 
     
     tools{
-        jdk 'Java SE Development Kit 9.0.4'
+        tools { jdk 'JDK' }  // Use the JDK configured in Jenkins
         maven 'maven'
     }
     
